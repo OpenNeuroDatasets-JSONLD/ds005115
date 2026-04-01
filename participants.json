@@ -1,6 +1,13 @@
-{ 
+{
     "session_id": {
-        "Description": "Specifies which session the data corresponds to"
+        "Description": "Specifies which session the data corresponds to",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:SessionID",
+                "Label": "Session ID"
+            },
+            "VariableType": "Identifier"
+        }
     },
     "time_of_day": {
         "Description": "Specifies when the session was conducted",
@@ -16,7 +23,7 @@
     "cortisol_saliva": {
         "Description": "Concentration of cortisol obtained from serum",
         "Units": "ug/dL"
-    },    
+    },
     "estradiol_serum": {
         "Description": "Concentration of estrtadiol obtained from serum",
         "Units": "pg/mL"
@@ -35,7 +42,7 @@
     },
     "perceived_stress": {
         "Description": "Perceived Stress Scale score"
-    },    
+    },
     "aggression": {
         "Description": "Aggression Questionnaire score"
     },
@@ -47,7 +54,7 @@
     },
     "poms_total": {
         "Description": "Profile of Mood States total summary score"
-    },    
+    },
     "poms_tension": {
         "Description": "Profile of Mood States tension subscore"
     },
@@ -59,7 +66,7 @@
     },
     "poms_vigor": {
         "Description": "Profile of Mood States vigor subscore"
-    },    
+    },
     "poms_fatigue": {
         "Description": "Profile of Mood States fatigue subscore"
     },
@@ -71,5 +78,15 @@
     },
     "steps": {
         "Description": "Number of daily steps taken, recorded via Fitbit"
+    },
+    "participant_id": {
+        "Description": "",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Participant ID"
+            },
+            "VariableType": "Identifier"
+        }
     }
 }
